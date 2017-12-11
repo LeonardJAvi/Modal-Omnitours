@@ -45,6 +45,28 @@ body {
   background: #FBCF0A;
 }
 
+#close{
+  width: 40px;
+  height: 40px;
+  background: #f2f507;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-2x {
+  font-size: 1.2em !important;
+  color: #12a655 !important;
+}
+
+span#close{
+	cursor: pointer;
+}
+
+
 #wallpaper{
   height: 100%;
   width: 100%;
