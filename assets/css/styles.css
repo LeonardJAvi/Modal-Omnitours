@@ -1,0 +1,147 @@
+/* ===== Setting ====== */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #15A656;
+}
+
+/* ===== Setting ====== */
+
+/* .caja{
+	height: 400px;
+	width: 300px;
+}
+ */
+
+#box{
+  height: 100%;
+  width: 100%;
+  background: #15A656;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box-wallpaper{
+  width: 100%;
+  height: 190px;
+  background: red;
+}
+
+.fix{
+	padding: 0px !important;
+}
+
+#box-wallpaper img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#box-informatiodn {
+  width: 100%;
+  height: 220px;
+  background: #FBCF0A;
+}
+
+#wallpaper{
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/carnaval.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% center;
+}
+
+#box-information{
+  height: 220px;
+  width: 100%;
+  background-image: url(../img/patron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70% center;
+  position: relative;
+}
+
+#card {
+  height: 240px;
+  width: 100%;
+  background: #12a655;
+  position: relative;
+  top: -20px;
+  padding: 20px;
+  box-shadow: 1px 1px 20px 0px;
+  text-align: center;
+}
+
+.button-card {
+  height: 40px;
+  width: 80%;
+  color: white;
+  background: red;
+  font-size: 16px;
+  font-weight: 600;
+  outline: 0 !important;
+  position: relative;
+  top: 12px;
+}
+
+span.title{
+   color: white;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 2px;
+}
+
+#sub-a {
+   margin: 35px 0px;
+}
+
+#sub-b {
+   font-weight: bold;
+   font-size: 16px;
+}
+
+#sub-c {
+   font-weight: bold;
+   font-size: 16px;
+   padding: 10px;
+
+}
+
+span.sub-title{
+   color: white;
+   font-size: 15px;
+   margin: 10px 0px 0px 0px;
+   font-weight: 700;
+   line-height: 2px;
+   display: block;
+}
+
+#frame {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	padding: 0px 30px;
+}
+
+.modal-dialog {
+  width: 300px !important;
+  margin: 30px auto !important;
+}
+
+#card-information {
+	height: 120px;
+	width: 100%;
+	background: red;
+}
+
+
